@@ -9,6 +9,8 @@ def join_nested_strings(src)
       if src[row_index][element_index] = string?
         src[row_index][element_index] += sentence
       end
+      element_index += 1
     end
+    row_index += 1
   end
 end
